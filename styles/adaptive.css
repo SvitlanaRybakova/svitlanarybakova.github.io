@@ -1,61 +1,71 @@
-
 @media(max-width: 1250px) {
-  .header-block {
-      width: 95%;
-  }
-  .container {
-      justify-content: flex-start;
-      width: 95%;
-  }
-  .right-sidebar {
-      display: none;
-      
-  }
-  .main-feed {
-    margin:0 auto;  
-}
+    .header-block {
+        width: 95%;
+    }
+    .container {
+        justify-content: flex-start;
+        width: 95%;
+    }
+    .right-sidebar {
+        display: none;
+    }
+    .main-feed {
+        margin: 0 auto;
+    }
+    .search-input {
+        width: 337px;
+    }
 }
 
 @media(max-width: 960px) {
-    
-  .head .user {
-      display: none;
-  }
-  .navigation-panel {
-      display: none;
-  }
-  .right-sidebar{
-      display:none;
-  }
-  .main-feed {
-    margin:0 auto;  
-}
+    .head .user {
+        display: none;
+    }
+    .navigation-panel {
+        display: none;
+    }
+    .right-sidebar {
+        display: none;
+    }
+    .main-feed {
+        margin: 0 auto;
+    }
+    .search-input {
+        width: 333px;
+    }
 }
 
 @media(max-width: 840px) {
-  .menu-sidebar {
-      position: absolute;
-      margin-left: -17px;
-      margin-top: 0px;
-      width: 20%;
-      height: 100%;
-      min-width: 250px;
-      background-color: #f1f1f1;
-      padding-top: 12px;
-      padding-left: 2%;
-      transform: translateX(-100%);
-      transition: transform 0.2s;
-  }
-  .menu-sidebar.active {
-      transform: translateX(0%);
-  }
-  .m-menu {
-      display: flex;
-  }
+    .logo{
+        display: none;
+    }
+    .menu-sidebar {
+        position: absolute;
+        margin-left: -17px;
+        margin-top: 0px;
+        width: 20%;
+        height: 150%;
+        min-width: 250px;
+        background-color: #f1f1f1;
+        padding-top: 12px;
+        padding-left: 2%;
+        transform: translateX(-100%);
+        transition: transform 0.2s;
+    }
+    .menu-sidebar.active {
+        transform: translateX(0%);
+    }
+    .m-menu {
+        display: flex;
+    }
 }
 
 @media (max-width: 425px) {
-  .search {
-      display: none;
-  }
+    .search {
+        display: none;
+    }
+    .menu-sidebar {
+        height: 150%;
+    }
+  
 }

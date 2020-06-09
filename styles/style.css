@@ -26,6 +26,27 @@ body {
     align-items: center;
     justify-content: space-between;
 }
+.logo{
+    width: 115px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    /* vertical-align: middle; */
+    align-items: center;
+   
+}
+.logo>.iconify {
+    color: white;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.logo__text {
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 15px;
+}
 
 .m-menu {
     border: none;
@@ -35,7 +56,6 @@ body {
     padding: 0;
     margin-left: 12px;
     display: none;
-    display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
@@ -51,7 +71,7 @@ body {
     line-height: 22px;
     padding: 5px 30px 5px 12px;
     width: 100%;
-    width: 336px;
+    width: 463px;
     background: #FFFFFF;
     border: 1px solid #D9D9D9;
     border-radius: 4px;
